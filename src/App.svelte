@@ -29,7 +29,7 @@
 
 </script>
 
-<main>
+<main style="max-width: 100%;">
   <div class="navTitle">
   <Navbar color="light" light expand="md" container="md">
   <NavbarBrand href="/" style="font-size: 2vw;">Eric Gutiérrez</NavbarBrand>
@@ -49,6 +49,9 @@
   </div>
 </main>
 
+<footer style="padding-top: 5vh; padding-bottom: 1vh;">
+  <p>&copy Eric Gutiérrez. 2025.</p>
+</footer>
 
 <style>
 main {
@@ -60,6 +63,10 @@ main {
 }
 .navTitle {
     width: 80%;
+}
+
+footer {
+  text-align: center;
 }
 
 </style>

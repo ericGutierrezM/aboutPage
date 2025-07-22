@@ -13,16 +13,18 @@
     Nav,
     NavItem,
     NavLink,
-    NavbarBrand
+    NavbarBrand,
+    ListGroup,
+    ListGroupItem
   } from 'sveltestrap';
 </script>
 
-<div>
+<div style="padding-top: 2vh; padding-bottom: 2vh;">
 
 <Card>
   <CardBody>
     <CardTitle>About</CardTitle>
-    <CardSubtitle>MSc Data Science for Decision Making | BA Management of Smart and Sustainable Cities</CardSubtitle>
+    <CardSubtitle>MSc Data Science for Decision Making | BSc Management of Smart and Sustainable Cities</CardSubtitle>
     <CardText>About text</CardText>
   </CardBody>
 </Card>
@@ -31,7 +33,7 @@
 
 <div class = 'latest'>
 
-<Card>
+<Card style="width: 49.5%;">
         <CardImg top src='https://picsum.photos/300/200?random=1'/>
         <CardBody>
           <CardTitle>Latest project</CardTitle>
@@ -40,29 +42,21 @@
         </CardBody>
       </Card>
 
-<Card>
+<Card style="width: 49.5%;">
   <CardBody>
     <CardTitle>Currently working on ...</CardTitle>
-    <CardSubtitle>MSc Data Science for Decision Making | BA Management of Smart and Sustainable Cities</CardSubtitle>
+    <CardSubtitle>MSc Data Science for Decision Making | BSc Management of Smart and Sustainable Cities</CardSubtitle>
     <CardText>About text</CardText>
+    <ListGroup>
+      <ListGroupItem style="display: flex; justify-content: space-between; align-items: center;"><p>Hiking Trails Mapping</p><Button style="background-color: rgb(0, 54, 23); color: white; border: none;" size="sm" class="rounded-pill px-2 py-0" disabled>GIS</Button></ListGroupItem>
+      <ListGroupItem style="display: flex; justify-content: space-between; align-items: center;"><p>Floor Area Ratio Playground</p><Button style="background-color: rgb(0, 54, 23); color: white; border: none;" size="sm" class="rounded-pill px-2 py-0" disabled>Urbanism</Button></ListGroupItem>
+
+    </ListGroup>
   </CardBody>
 </Card>
-
-
-
 </div>
 
-  <Card>
-    <CardHeader>
-      <CardTitle>Card title</CardTitle>
-    </CardHeader>
-    <CardBody>
-      <CardSubtitle>Card subtitle</CardSubtitle>
-      <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-      <Button>Button</Button>
-    </CardBody>
-    <CardFooter>Footer</CardFooter>
-  </Card>
+
 
 <style>
     
@@ -82,6 +76,7 @@ main {
     display: flex;
     align-items: center;
     width: 100%;
+    justify-content: space-between;
 }
 
 </style>
