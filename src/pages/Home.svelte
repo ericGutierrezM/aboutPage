@@ -34,7 +34,7 @@
 <div class = 'latest'>
 
 <Card style="width: 49.5%;">
-        <CardImg top src='https://picsum.photos/300/200?random=1'/>
+        <CardImg top src='src/lib/neighborhood-explorer.png'/>
         <CardBody>
           <CardTitle>Latest project</CardTitle>
           <CardText></CardText>
