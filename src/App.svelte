@@ -32,7 +32,7 @@
 <main style="max-width: 100%;">
   <div class="navTitle">
   <Navbar color="light" light expand="md" container="md">
-  <NavbarBrand href="/" style="font-size: 5vh;">Eric Gutiérrez</NavbarBrand>
+  <NavbarBrand href="#/" style="font-size: 5vh;">Eric Gutiérrez</NavbarBrand>
     <Nav class="ms-auto" navbar>
       <NavItem>
         <NavLink href="#/" style="font-size: 2.5vh;">Home</NavLink>
