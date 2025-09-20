@@ -3,10 +3,10 @@
     import { Button} from 'sveltestrap';
 
     const galleryItems = [
-    { id: 4, title: "Neighborhood Explorer. Visualizing Socioeconomic Data at the Neighborhod Level", date: "July 2025", img: "src/lib/neighborhood-explorer.png", topics: ['Demography', 'Interactive'], lang: 'English', type: 'Project', link: 'https://ericgutierrezm.github.io/neighborhoodExplorer/'},
-    { id: 3, title: "Un Índex de Pobresa Multidimensional per a la Regió Metropolitana de Barcelona", date: "July 2025", img: "src/lib/ipm-rmb.png", topics: ['Poverty', 'Demography'], lang: 'Catalan', type: 'Thesis', link: '/un_index_de_pobresa_multidimensional_per_a_la_rmb.pdf' },
-    { id: 2, title: "Caracterización de la Distribución Espacial de las Empresas Españolas en BME y BME Growth", date: "April 2025", img: "src/lib/bme.png", topics: ['Business', 'GIS'], lang: 'Spanish', type: 'Project', link: '/caracterizacion-distribucion-espacial-bme-bme-growth.pdf'},
-    { id: 1, title: "Land Use Diversity and Socioeconomic Welfare: the Case of the Barcelona Metropolitan Region", date: "June 2024", img: "src/lib/land-use.png", topics: ['Urbanism'], lang: 'English', type: 'Project', link: '/land_use_diversity_and_socioeconomic_welfare.pdf'}
+    { id: 4, title: "Neighborhood Explorer. Visualizing Socioeconomic Data at the Neighborhod Level", date: "July 2025", img: "public/neighborhood-explorer.png", topics: ['Demography', 'Interactive'], lang: 'English', type: 'Project', link: 'https://ericgutierrezm.github.io/neighborhoodExplorer/'},
+    { id: 3, title: "Un Índex de Pobresa Multidimensional per a la Regió Metropolitana de Barcelona", date: "July 2025", img: "public/ipm-rmb.png", topics: ['Poverty', 'Demography'], lang: 'Catalan', type: 'Thesis', link: '/un_index_de_pobresa_multidimensional_per_a_la_rmb.pdf' },
+    { id: 2, title: "Caracterización de la Distribución Espacial de las Empresas Españolas en BME y BME Growth", date: "April 2025", img: "public/bme.png", topics: ['Business', 'GIS'], lang: 'Spanish', type: 'Project', link: '/caracterizacion-distribucion-espacial-bme-bme-growth.pdf'},
+    { id: 1, title: "Land Use Diversity and Socioeconomic Welfare: the Case of the Barcelona Metropolitan Region", date: "June 2024", img: "public/land-use.png", topics: ['Urbanism'], lang: 'English', type: 'Project', link: '/land_use_diversity_and_socioeconomic_welfare.pdf'}
   ];
 </script>
 
