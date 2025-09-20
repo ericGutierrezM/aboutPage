@@ -23,7 +23,7 @@
 <div style="padding-top: 2vh; padding-bottom: 2vh; width: 69.5%;">
 <Card>
   <CardBody>
-    <img src="./photo.png" style="width: 10vw; float: left; border-radius: 50%; margin-right: 2%; padding-top: 1vh; pointer-events: none;">
+    <img src="aboutPage/photo.png" style="width: 10vw; float: left; border-radius: 50%; margin-right: 2%; padding-top: 1vh; pointer-events: none;">
     <CardTitle style="font-size: 2.7vh;">About</CardTitle>
     <CardSubtitle style="padding-top: 2vh; font-size: 2.3vh;">MSc Candidate in Data Science for Decision Making @ Barcelona School of Economics</CardSubtitle>
     <CardText style="padding-top: 1.7vh; font-size: 2.2vh;"><p>I'm a <i>Data Science for Decision Making</i> student and a 
